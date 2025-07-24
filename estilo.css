@@ -1,0 +1,95 @@
+body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+        color: black;  
+    }
+    header{
+        background-color: rgb(174, 107, 25);
+        color: rgb(250, 221, 215);
+        text-align: center;
+        padding: 20px 0;
+    }
+    header h1{
+        margin: 0;
+        font-size: 2.5em;
+    }
+    header p {
+    margin: 5px 0 0;
+    font-style: italic;
+    }
+
+nav {
+    background-color: rgb(253, 229, 200);
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    background-color: rgb(253, 229, 200);
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(red, green, blue, alpha);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: black;
+    border-bottom: 2px  solid ;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+}
+ol {
+    padding-left: 20px;
+}
+
+figure {
+    margin: 20 px 0;
+    text-align: center;
+}
+
+figure img {
+max-width: 50%;
+height: auto;
+border-radius: 5px;
+}
+
+figcaption {
+    font-size: 0.9em ;
+    color: rgb(59, 59, 59);
+    margin-top: 5px;
+}
+aside {
+    background-color: rgb(199, 196, 196);
+    padding: 15px;
+    border-left: 5px solid;
+    margin-top: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    border-top: 2px solid;
+}
